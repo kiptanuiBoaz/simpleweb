@@ -2,7 +2,7 @@
 FROM node:14-alpine
 
 # Specifying a working directory
-# WORKDIR /usr/app
+WORKDIR /usr/app
 COPY ./ ./
 
 #Install some dependencies
